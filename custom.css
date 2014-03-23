@@ -1,0 +1,29 @@
+   .box{
+      background: #F1F1F1;
+      width: 250px;
+      height: 100px;
+    }
+    .time{
+      padding-top: 10px;
+      font-size: 18px;
+      text-align: center;
+    }
+    .form{
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .copyrights {
+      text-decoration: none;
+      background: #DCDCDC;
+      width: 250px;
+      font-style: italic;
+      text-align: center;
+      font-size: 12px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .copyrights a{
+      text-decoration: none;
+    }

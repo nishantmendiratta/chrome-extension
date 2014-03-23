@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name" : "Lovely Stopwatch", 
+	"version" : "0.1",
+
+	"description" : "just for fun",
+	
+	"icons": {
+        "48": "icon.png"
+    },
+
+    "content_scripts": [ {"js": [ "stopwatch.html" ], "matches": [ "http://*/" ]} ],
+
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+
+
+	"browser_action" : {
+		"default_popup" : "stopwatch.html",
+		"default_icon" : "icon.png"
+	},
+
+	"permissions" : ["notifications","<all_urls>"]
+}
